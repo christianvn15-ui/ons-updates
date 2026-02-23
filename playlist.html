@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Liedjies 🎧</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js")
+      .then(reg => console.log("Service Worker registered:", reg))
+      .catch(err => console.error("Service Worker registration failed:", err));
+  }
+</script>
+</head>
+<body>
+<header>
+  <h1><i class="fa fa-music"></i> Liedjies</h1>
+</header>
+
+<h3>Liedjies oor my Bokkie 💖</h3>
+
+<main>
+  <div class="card">
+    <h2>Belong Together</h2>
+    <audio controls>
+      <source src="Belong Together.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="card">
+    <h2>Thank God</h2>
+    <audio controls>
+      <source src="Thank God.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="card">
+    <h2>All I'll Ever Need</h2>
+    <audio controls>
+      <source src="All I'll Ever Need.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="card">
+    <h2>Soen</h2>
+    <audio controls>
+      <source src="Soen.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="card">
+    <h2>Forever And Ever Amen</h2>
+    <audio controls>
+      <source src="Forever And Ever Amen.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="card">
+    <h2>Once In A Lifetime</h2>
+    <audio controls>
+      <source src="Once in a lifetime.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+<div class="card">
+    <h2>Butterflies</h2>
+    <audio controls>
+      <source src="Butterflies.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+<div class="card">
+    <h2>Diner 39</h2>
+    <audio controls>
+      <source src="Diner 39 - Franna Benadé(Official Music Video).mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</main>
+
+<br>
+<br>
+<br>
+<br>
+
+<script src="main.js"></script>
+</body>
+<footer>
+  <nav class="nav-bar">
+    <a href="index.html"><i class="fa fa-envelope"></i></a>
+    <a href="images.html"><i class="fa fa-image"></i></a>
+    <a href="playlist.html" class="active"><i class="fa fa-music"></i></a>
+    <a href="notes.html"><i class="fa fa-comments"></i></a>
+  </nav>
+</footer>
+</html>
